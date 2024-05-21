@@ -25,7 +25,7 @@ resource akscluster 'Microsoft.ContainerService/managedClusters@2024-03-02-previ
     agentPoolProfiles: [
       {
         name: 'agentpool'
-        osDiskSizeGB: 10
+        osDiskSizeGB: 30
         count: 1
         vmSize: 'Standard_DS2_v2'
         osType: 'Linux'
@@ -33,7 +33,7 @@ resource akscluster 'Microsoft.ContainerService/managedClusters@2024-03-02-previ
       }
       {
         name: 'simulator'
-        osDiskSizeGB: 10
+        osDiskSizeGB: 30
         count: 1
         vmSize: 'Standard_F4s_v2'
         osType: 'Linux'
