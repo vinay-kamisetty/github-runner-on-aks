@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resourcegroup": {
-      "value": "aksrunners-rg"
+      "value": "aksrunners-rg1"
     },
     "adminusername": {
       "value": "aksadmin"
