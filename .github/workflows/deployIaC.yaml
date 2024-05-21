@@ -5,7 +5,7 @@ env:
   RESOURCE_GROUP: 'aksrunners-rg'
   CLUSTER_NAME: 'aksrunners-aks'
   ADMIN_USERNAME: 'aksadmin'
-  REGION: 'westus'
+  REGION: 'westeurope'
   REGISTRY: ghcr.io
   IMAGE_NAME: "${{ github.repository }}"
 # Controls when the action will run. 
