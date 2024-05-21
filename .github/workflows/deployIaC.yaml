@@ -57,3 +57,4 @@ jobs:
           sleep 90
           kubectl apply -f ./runner/runnerdeployment.yaml 
           kubectl apply -f ./runner/hra-scaler.yaml
+          kubectl create secret docker-registry runnersecret --docker-server=https://${{ env.REGISTRY }}/ --docker-username=${{ github.repository }} --docker-password=${{ secrets.RUNNER_TOKEN }}
